@@ -41,7 +41,7 @@ class Bot(Client):
         except Exception as e:
             self.LOGGER(__name__).warning(e)
             self.LOGGER(__name__).warning("Make Sure bot is Admin in DB Channel, and Double check the CHANNEL_ID Value")
-            self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/tharamaanateambot for updates")
+            self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/TharamaanaMovies for updates")
             sys.exit()
 
         self.set_parse_mode("html")
