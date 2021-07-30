@@ -76,7 +76,7 @@ async def start_command(client: Client, message: Message):
                     InlineKeyboardButton("About", callback_data = "about"),
                     InlineKeyboardButton("Close", callback_data = "close")
                 ],[
-                    InlineKeyboardButton("Tharamaana Movies", "url = https://telegram.me/tharamaanamovies")
+                    InlineKeyboardButton("Tharamaana Movies", url = f"https://telegram.me/tharamaanamovies")
                 ]
             ]
         )
